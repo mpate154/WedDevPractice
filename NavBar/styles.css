@@ -1,0 +1,229 @@
+/*
+html {
+    font-size: 62.5% makes all text 10px default
+}
+*/ 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+nav {
+    background: #000; 
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column; 
+    padding-top: 23.6px;
+    padding-bottom: 23.6px; 
+    
+}
+
+nav li {
+    display: flex; 
+    justify-content: center;
+    padding: 5px; 
+
+}
+
+nav a{
+    color: lightgrey; 
+    text-decoration: none; 
+}
+
+@media screen and (min-width: 786px) {
+    nav ul {
+        flex-direction: row;
+        justify-content: flex-end; 
+        padding: 10px; 
+        padding-right: 5px; 
+    }
+
+    nav li {
+        padding: 10px; 
+    }
+}
+/*media queries
+.container {
+    display: flex; 
+    flex-direction: column; 
+
+}
+
+.box {
+    background: gold; 
+    padding: 1rem; 
+}
+
+.box:nth-of-type(2){
+    background: dodgerblue; 
+}
+
+@media screen and (min-width: 600px) {
+    .container {
+        flex-direction: row; 
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .container {
+        flex-direction: row; 
+    }
+    .box{
+        background: white; 
+    }
+}
+
+@media print {
+    body {
+        font-size: 12pt; 
+    }
+
+    .box {
+        padding: .5cm; 
+    }
+}
+    */
+
+/* hiding
+.first {
+    display: none ;
+    visibility: hidden;
+}
+    */ 
+
+/* Grids 
+.container {
+    display: grid; 
+    grid-template: 100px auto 100px / 30fr 70fr;
+    border: 3px solid lightgray; 
+    row-gap: 10px;
+    column-gap: 10px;
+    gap: 10px; 
+    height: 100vh; 
+    grid-template-areas:
+     "header  header" 
+     "sidebar main" 
+     ".       footer"; 
+}
+
+.box {
+    
+ 
+    background-color: gold;
+    
+}
+
+.boxone {
+    grid-area: header; 
+}
+
+.box-four {
+    grid-area: footer; 
+}
+
+*/
+/* FLEX 
+.container {
+    border: 3px solid lightgrey;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    height: 90vh;
+}
+flex-wrap: wrap;
+    align-content: center; 
+
+
+.box {
+    flex-basis: 15rem;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex: 1 1 15rem;
+    width: 5rem;
+    height: 5rem;
+    background: gold;
+    margin: 1rem;
+}
+
+.box-one {
+    flex-grow:2;
+    flex-shrink: 0;
+}
+*/
+
+
+/*floats 
+.tweet {
+    border: 3px solid lightgrey; 
+}
+
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both; 
+}
+.avatar {
+    width: 5rem;
+    height: 5rem;
+    background-color: gold;
+    float: left;
+    margin-right: 0.5rem;
+}
+
+.clear {
+    clear: left;
+}
+    */
+
+/*
+.box {
+    border: 3px solid gold;
+    width: 150px; 
+    height: 150px;
+    overflow: hidden auto; 
+}
+*/ 
+
+/* units
+.box {
+    font-size: 20px;
+    width: 15rem; 50% of parent which is body whcih needs assigned widths
+    height: 100vh;
+    background-color: gold;
+    border-top: 3px solid red;
+}
+
+
+.boxes {
+    border: 3px solid lightgrey;
+    position: relative; 
+}
+
+.box {
+    width: 5rem;
+    height: 5rem;
+}
+
+.box-one {
+    background: gold;
+}
+
+.box-two {
+    background: tomato;
+    position: fixed;
+    top:0;
+    z-index: 9999;
+    left: 2rem;
+    right: 2rem;
+    width: auto; 
+}
+
+.box-three {
+    background: dodgerblue;
+}
+*/
