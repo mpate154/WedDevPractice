@@ -1,0 +1,91 @@
+body {
+    font-family: "Barlow Condensed", sans-serif;
+    color: black;  
+    margin: 0; 
+}
+.navbar{
+    overflow: hidden; 
+    margin: 10px; 
+   /* box-shadow: 0 0 4px 0 rgb(179, 179, 179)*/
+}
+
+.navbar-brand {
+    float: left; 
+    font-size: 1.5em; 
+    text-decoration: none; 
+    text-align: center;
+    padding: 15px; 
+    color: black; 
+}
+
+.navbar-links {
+    float: right; 
+    margin: 0; 
+}
+
+.navbar-links li{
+    float:left; 
+    list-style: none;
+    padding: 15px; 
+    font-size: 1.5em; 
+    
+   
+}
+
+.navbar-links a{
+    display:block;
+    text-align: center; 
+    text-decoration: none;
+
+}
+
+.navbar ul li:hover {
+    border-color: black; 
+    border: 1px solid rgb(27, 27, 27); 
+    border-radius: 2px; 
+    padding: 14px; 
+    /*animation: bordermove 800ms; 
+    transition: all ease-in-out; */
+}
+/*
+@keyframes bordermove {
+    0% {
+        border-left: 1px solid black; 
+    }
+    25% {
+        border-left: 1px solid black;
+        border-bottomn: 1px solid black;
+    }
+    50% {
+        border-left: 1px solid black;
+        border-bottomn: 1px solid black;
+        border-right: 1px solid black; 
+    }
+    100% {
+        border-left: 1px solid black;
+        border-bottomn: 1px solid black;
+        border-right: 1px solid black; 
+        border-top: 1px solid black; 
+    
+    }
+}*/
+
+.hero {
+    position: relative; 
+}
+.hero img{
+    overflow: hidden;
+    width: 100%;
+    height: 600px; 
+    background-size: cover; 
+}
+
+.hero p{
+    color: white; 
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-weight: 100;
+    font-size: 1.5em;
+}
